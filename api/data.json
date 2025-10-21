@@ -1,0 +1,49 @@
+{
+  "skills": [
+    {
+      "tec": "Javascript",
+      "category": "front-end"
+    },
+    {
+      "tec": "HTML",
+      "category": "front-end"
+    },
+    {
+      "tec": "CSS",
+      "category": "front-end"
+    },
+    {
+      "tec": "React",
+      "category": "front-end"
+    },
+    {
+      "tec": "Node.js",
+      "category": "back-end"
+    },
+    {
+      "tec": "Express",
+      "category": "back-end"
+    },
+    {
+      "tec": "MongoDB",
+      "category": "back-end"
+    },
+    {
+      "tec": "MySQL",
+      "category": "back-end"
+    },
+    {
+      "tec": "Python",
+      "category": "back-end"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Carteira Viewer",
+      "description": "",
+      "category": "full-stack",
+      "picture": "",
+      "url": "https://carteiraviewer.com.br"
+    }
+  ]
+}
