@@ -9,6 +9,8 @@ body {
   color: var(--text-light);
   font-family: "Inter", sans-serif;
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .font-display {
   font-family: "Syne", sans-serif;
@@ -145,5 +147,11 @@ h1 {
 @media (min-width: 768px) {
   #about {
     flex-direction: row;
+    gap: 2.5rem;
+  }
+
+  #about-text {
+    width: 50%;
+    text-wrap: wrap;
   }
 }
