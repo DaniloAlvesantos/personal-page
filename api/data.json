@@ -1,40 +1,137 @@
 {
+  "technologies": [
+    "front-end",
+    "back-end",
+    "development-tools",
+    "programming",
+    "other",
+    "mobile",
+    "AI"
+  ],
   "skills": [
     {
-      "tec": "Javascript",
+      "tech": "HTML",
       "category": "front-end"
     },
     {
-      "tec": "HTML",
+      "tech": "CSS",
       "category": "front-end"
     },
     {
-      "tec": "CSS",
+      "tech": "Docker",
+      "category": "development-tools"
+    },
+    {
+      "tech": "Node.js",
+      "category": "back-end"
+    },
+    {
+      "tech": "Express",
+      "category": "back-end"
+    },
+    {
+      "tech": "Figma",
+      "category": "development-tools"
+    },
+    {
+      "tech": "Firebase",
+      "category": "other"
+    },
+    {
+      "tech": "Git",
+      "category": "development-tools"
+    },
+    {
+      "tech": "GitHub",
+      "category": "development-tools"
+    },
+    {
+      "tech": "Javascript",
       "category": "front-end"
     },
     {
-      "tec": "React",
+      "tech": "Javascript",
+      "category": "programming"
+    },
+    {
+      "tech": "TypeScript",
+      "category": "programming"
+    },
+    {
+      "tech": "Linux",
+      "category": "other"
+    },
+    {
+      "tech": "Redis",
+      "category": "back-end"
+    },
+    {
+      "tech": "PostgreSQL",
+      "category": "back-end"
+    },
+    {
+      "tech": "Prisma",
+      "category": "back-end"
+    },
+    {
+      "tech": "JWT",
+      "category": "back-end"
+    },
+    {
+      "tech": "Orientação a objetos",
+      "category": "other"
+    },
+    {
+      "tech": "Python",
+      "category": "programming"
+    },
+    {
+      "tech": "PHP",
+      "category": "programming"
+    },
+    {
+      "tech": "React",
       "category": "front-end"
     },
     {
-      "tec": "Node.js",
-      "category": "back-end"
+      "tech": "React Native",
+      "category": "mobile"
     },
     {
-      "tec": "Express",
-      "category": "back-end"
+      "tech": "Next.js",
+      "category": "front-end"
     },
     {
-      "tec": "MongoDB",
-      "category": "back-end"
+      "tech": "SQL",
+      "category": "programming"
     },
     {
-      "tec": "MySQL",
-      "category": "back-end"
+      "tech": "Swift",
+      "category": "mobile"
     },
     {
-      "tec": "Python",
-      "category": "back-end"
+      "tech": "TailwindCSS",
+      "category": "front-end"
+    },
+    {
+      "tech": "Bootstrap",
+      "category": "front-end"
+    },
+    {
+      "tech": "Estrutura de dados",
+      "category": "other"
+    },
+    {
+      "tech": "Ollama",
+      "category": "AI"
+    },
+    {
+      "tech": "Fine-tunning",
+      "category": "AI"
+    },
+    {
+      "tech": "Jupiter",
+      "category": "AI"
     }
   ],
   "projects": [

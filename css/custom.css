@@ -190,3 +190,28 @@ h1 {
 .skill-card > p {
   margin-bottom: -0.1rem;
 }
+
+.tech-card {
+  min-height: 20rem;
+}
+
+.tech-card-icon {
+  background: var(--tech-card-color);
+  backdrop-filter: blur(3px);
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tech-card-list {
+  padding: 0.5rem 1.5rem;
+}
+
+#tech-card-list li::marker {
+  color: var(--tech-card-color);
+}
