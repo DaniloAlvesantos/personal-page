@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   console.log(skills);
 
   const stacksContainer = document.querySelector("#stacks");
+  const projectsContainer = document.querySelector("#projects-container");
 
   technologies.forEach((tech) => {
     const currentAsset = skillsAssets.find((r) => r.tech === tech);
@@ -101,5 +102,50 @@ document.addEventListener("DOMContentLoaded", async () => {
           </div>`;
 
     stacksContainer.innerHTML += content;
+  });
+
+  projects.forEach((project) => {
+    const content = `
+<div class="d-flex flex-column gap-2 col-12 col-md-6">
+                <div class="project-img-container">
+                  <img
+                    src="${project.picture ?? response.placeholder}"
+                    alt="project thumb"
+                    class="project-img"
+                  />
+                </div>
+                <h3 class="fs-4 fw-bold font-display">${project.name}</h3>
+                <p class="text-muted-custom">${project.description}</p>
+                <div class="d-flex gap-3 mt-2">
+                  ${
+                    project.url
+                      ? `<a
+                    class="text-decoration-none fw-medium small d-flex align-items-center gap-1"
+                    href="${project.url}"
+                    style="color: var(--text-light)"
+                  >
+                    Live Demo
+                    <span
+                      class="material-symbols-outlined"
+                      style="font-size: 1rem"
+                      >arrow_forward</span
+                    >
+                  </a>`
+                      : ""
+                  }
+                  ${
+                    project.repository
+                      ? `<a
+                    class="text-decoration-none fw-medium small text-muted-custom project-link-hover"
+                    href="${project.repository}"
+                  >
+                    Repository
+                  </a>`
+                      : ""
+                  }
+                </div>
+              </div>`;
+
+    projectsContainer.innerHTML += content;
   });
 });

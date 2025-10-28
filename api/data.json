@@ -137,10 +137,32 @@
   "projects": [
     {
       "name": "Carteira Viewer",
-      "description": "",
-      "category": "full-stack",
-      "picture": "",
-      "url": "https://carteiraviewer.com.br"
+      "description": "Simulador de investimentos de backtest, focado no mercado brasileiro",
+      "picture": "https://carteiraviewer.com.br/screenshot.png",
+      "url": "https://carteiraviewer.com.br",
+      "repository": ""
+    },
+    {
+      "name": "Quick Docs",
+      "description": "Editor de texto para criação de PDF, rápido, simples e fácil de usar",
+      "picture": "https://i.ibb.co/wrML3xyS/Screenshot-2025-10-28-at-19-14-52.png",
+      "url": "https://quick-docs-ex.netlify.app",
+      "repository": "https://github.com/DaniloAlvesantos/quick-docs"
+    },
+    {
+      "name": "RMBG ( Remove Background )",
+      "description": "Site feito em Flask com python, para remover o background de imagens",
+      "picture": "https://i.ibb.co/FqzwQ7xd/1.png",
+      "url": "",
+      "repository": "https://github.com/DaniloAlvesantos/RMBG"
+    },
+    {
+      "name": "Simple Chat",
+      "description": "Site de chat em tempo real, usando firebase, firestore a authentication da google",
+      "picture": "https://i.ibb.co/jkRCV1nh/Screenshot-2025-10-28-at-19-22-08.png",
+      "url": "https://simple-chat-firebase.netlify.app",
+      "repository": "https://github.com/DaniloAlvesantos/simple-chat"
     }
-  ]
+  ],
+  "placeholder": "https://lh3.googleusercontent.com/aida-public/AB6AXuDWCJ8Wg4xOmdcgbwjlyHYJAOiilWGe-wD-t0Xa7-4BLomfAzW44E0BPfEhM3H-iyMT55btFUDjMxX_U73I0TDPBthDpaVJsIOLeHYn7XqG7N4h2fqYDwja6ZPSMjspwZ7jbjm6oih-9x5g_qF09hBIppatR9VB3-1JBvYPPxtg_JSSBEsSFaFQbm4TGASINqOWvfrEXDOCJ7p54Q7_8K6btJUvhoBDhFiaIKG-OL80czAF6nFoD_eN3w6B0wALx5uL7AldmyoW4zMW"
 }
