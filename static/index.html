@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Danilo Alves - Portfolio</title>
+    <link rel="icon" href="./assets/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid px-3 px-md-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+          <header class="py-4">
+            <nav class="navbar navbar-expand-md">
+              <div class="container-fluid px-0">
+                <a class="navbar-brand font-display fs-3 fw-bold" href="#"
+                  >Alves</a
+                >
+
+                <button
+                  class="navbar-toggler border-0"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse justify-content-end"
+                  id="navbarNav"
+                >
+                  <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="#about"
+                        >Sobre</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="#skills"
+                        >Skills</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="#projects"
+                        >Projetos</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="#contact"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
+
+          <main>
+            <div
+              class="row align-items-center flex-column-reverse flex-lg-row g-5 py-5"
+            >
+              <div class="col-12 col-lg-7">
+                <div class="d-flex flex-column gap-4">
+                  <div class="d-flex flex-column gap-3">
+                    <h1
+                      class="font-display fw-bold animate-slide-in-fade animate-delay-1"
+                    >
+                      Danilo Alves
+                    </h1>
+                    <p
+                      class="text-muted-custom fs-5 lh-lg animate-slide-in-fade animate-delay-2"
+                      style="max-width: 42rem"
+                    >
+                      Desenvolvedor de sites, APIs e aplicativos móveis. Especialista na criação de interfaces modernas e interativas, levando ideias do papel à realidade
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex flex-wrap gap-3 animate-slide-in-fade animate-delay-3"
+                  >
+                    <a
+                      class="btn btn-light-custom px-4 py-2 rounded"
+                      href="#projects"
+                    >
+                      Ver meus projetos
+                    </a>
+                    <a
+                      class="btn btn-outline-custom px-4 py-2 rounded"
+                      href="#contact"
+                    >
+                      Entrar em contato
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-5 d-flex justify-content-center justify-content-lg-end"
+              >
+                <div class="profile-image"></div>
+              </div>
+            </div>
+          </main>
+
+          <hr />
+
+          <section class="py-5" id="about">
+            <div id="carousel-wraper">
+              <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/4.jpeg" alt="profile-picture-1" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/3.jpg" alt="profile-picture-2" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/2.jpg" alt="profile-picture-3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="about-text">
+              <h3 class="font-display fs-2">Sobre</h3>
+              <p class="text-muted-custom fs-6 lh-lg">
+                Tenho <strong id="age"></strong>, sou desenvolvedor full stack
+                especialista em Javascript, estudante autodidata, músico,
+                bilíngue e cabo da reserva do Exército Brasileiro. Desde <strong>2020</strong> venho me especializando em
+                tecnologia da informação, atualmente cursando na Fatec "Ogai
+                Castro Pacheco" - Itapira, SP.
+              </p>
+              <p class="text-muted-custom fs-6 lh-lg">
+                Sempre preparado e disposto para novas oportunidades e desafios.
+              </p>
+            </div>
+          </section>
+
+          <hr />
+
+          <section id="skills">
+            <h2 class="font-display fs-2 text-center">Skills</h2>
+            <div class="skill-card-wrapper row">
+              <div class="skill-card col-12 col-sm-6 col-md-4 mt-4">
+                <div class="skill-card-icon">
+                  <i class="bi bi-code fs-4"></i>
+                </div>
+                <p class="fs-6 fw-medium">Programação</p>
+                <p class="fs-6 text-muted-custom text-center w-50">
+                  Construção de sites e aplicativos móveis
+                </p>
+              </div>
+
+              <div class="skill-card col-12 col-sm-6 col-md-4 mt-4">
+                <div class="skill-card-icon">
+                  <i class="bi bi-vector-pen fs-4"></i>
+                </div>
+                <p class="fs-6 fw-medium">Prototipagem</p>
+                <p class="fs-6 text-muted-custom text-center w-50">
+                  Construção de interfaces, layouts e designs
+                </p>
+              </div>
+
+              <div class="skill-card col-12 col-sm-6 col-md-4 mt-4">
+                <div class="skill-card-icon">
+                  <i class="bi bi-translate fs-4"></i>
+                </div>
+                <p class="fs-6 fw-medium">Bilíngue</p>
+                <p class="fs-6 text-muted-custom text-center w-50">
+                  Comunicação e desenvolvimento em múltiplos idiomas
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="skills-stacks">
+            <h2 class="font-display fs-2 text-center">Tecnologias</h2>
+            <div id="stacks" class="row gx-4 gy-4 mt-2"></div>
+          </section>
+
+          <hr class="my-4" />
+
+          <section id="projects">
+            <h2 class="font-display fs-2 text-center">Projetos</h2>
+            <div class="row g-4 my-2" id="projects-container"></div>
+          </section>
+
+          <hr class="mt-5" />
+
+          <section id="contact" class="my-5 row">
+            <div class="col-12 col-md-6">
+              <h2 class="font-display fs-2">Entre em contato</h2>
+              <p class="text-muted-custom fs-6" style="max-width: 75%;">
+                Estou sempre disposto para discurit sobre novas ideias e oportunidades de trabalho. Sinta-se livre para entrar em contato.
+              </p>
+              <p class="fs-6 d-flex align-items-center gap-2 text-light">
+                <i class="bi bi-envelope fs-5"></i>
+                <a
+                  href="mailto:daniloasan.itapira@gmail.com"
+                  class="text-decoration-none text-light"
+                  >daniloasan.itapira@gmail.com</a
+                >
+              </p>
+              <p class="fs-6 d-flex align-items-center gap-2 text-light">
+                <i class="bi bi-telephone fs-5"></i>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5519991072257"
+                  class="text-decoration-none text-light"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  +55 (19) 99107-2257
+                </a>
+              </p>
+            </div>
+
+            <form class="col-12 col-md-6" onsubmit="handleSubmit(event)" id="contact-form">
+              <div class="my-4">
+                <label for="inp-name" class="form-label text-muted-custom"
+                  >Nome</label
+                >
+                <input
+                  id="inp-name"
+                  name="name"
+                  type="text"
+                  class="form-control"
+                  style="
+                    --bs-body-bg: var(--background-dark);
+                    --bs-border-color: var(--border-color);
+                  "
+                  placeholder="Seu nome"
+                  required
+                />
+              </div>
+              <div class="my-4">
+                <label for="inp-email" class="form-label text-muted-custom"
+                  >Email</label
+                >
+                <input
+                  id="inp-email"
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  style="
+                    --bs-body-bg: var(--background-dark);
+                    --bs-border-color: var(--border-color);
+                  "
+                  placeholder="seuemail@gmail.com"
+                  required
+                />
+              </div>
+              <div class="my-4">
+                <label for="inp-sub" class="form-label text-muted-custom"
+                  >Assunto</label
+                >
+                <input
+                  id="inp-sub"
+                  name="subject"
+                  type="text"
+                  class="form-control"
+                  style="
+                    --bs-body-bg: var(--background-dark);
+                    --bs-border-color: var(--border-color);
+                  "
+                  placeholder="O que se trata?"
+                  required
+                />
+              </div>
+              <div class="my-4">
+                <label for="textarea" class="form-label text-muted-custom"
+                  >Mensagem</label
+                >
+                <textarea
+                  id="textarea"
+                  name="message"
+                  class="form-control"
+                  style="
+                    --bs-body-bg: var(--background-dark);
+                    --bs-border-color: var(--border-color);
+                  "
+                  placeholder="Sua mensagem..."
+                  oninput="autosize(this)"
+                  required
+                  minlength="50"
+                ></textarea>
+              </div>
+              <button
+                class="btn btn-light-custom px-4 py-2 rounded w-100"
+                type="submit"
+              >
+                Enviar mensagem
+              </button>
+            </form>
+          </section>
+
+          <footer
+            class="d-flex align-items-center justify-content-between py-4 border-top border-custom"
+          >
+            <p class="text-muted-custom small mb-0">
+              © 2024 Danilo Alves dos Santos
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <a
+                class="social-icon text-decoration-none"
+                href="https://github.com/DaniloAlvesantos"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="bi bi-github fs-5"></i>
+              </a>
+              <a
+                class="social-icon text-decoration-none"
+                href="https://www.linkedin.com/in/dalve-s"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="bi bi-linkedin fs-5"></i>
+              </a>
+              <a
+                class="social-icon text-decoration-none"
+                href="https://www.instagram.com/danilodos9818"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="bi bi-instagram fs-5"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/portifolio.js"></script>
+    <script src="./scripts/form.js"></script>
+  </body>
+</html>
