@@ -7,7 +7,7 @@ async function handleSubmit(event) {
   const values = Object.fromEntries(formData.entries());
 
   try {
-    const response = await fetch("/api/send/message", {
+    const response = await fetch("/.netlify/functions/email", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),
@@ -15,7 +15,6 @@ async function handleSubmit(event) {
 
     if (!response.ok) throw new Error("Failed to send message");
 
-    // Add toast to DOM if not already there
     if (!document.querySelector("#liveToast")) {
       document.body.insertAdjacentHTML(
         "beforeend",
@@ -36,7 +35,6 @@ async function handleSubmit(event) {
       );
     }
 
-    // Show the toast using Bootstrap's JS API
     const toastElement = document.getElementById("liveToast");
     const toast = new bootstrap.Toast(toastElement);
     toast.show();

@@ -1,17 +1,8 @@
 {
-  "name": "personal-page",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "devDependencies": {
+    "netlify-cli": "^23.9.5"
   },
-  "keywords": [],
-  "author": "DaniloAlvesantos",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
     "nodemailer": "^7.0.10"
   }
 }
